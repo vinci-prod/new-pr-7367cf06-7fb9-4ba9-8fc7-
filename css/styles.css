@@ -1,0 +1,1536 @@
+ 
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none; /* no underline */
+}
+
+a[href=""],
+a[href="#"],
+a[href=undefined] {
+    display: none;
+    text-decoration: none; /* no underline */
+}
+
+.Cardsprojects {
+    gap: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-style: solid;
+    border-color: #eaeeff;
+    background-color: #f9faff;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    border-width: 2px;
+}
+
+.Image1 {
+    width: 202px;
+    height: 202px;
+    border-radius: 20px;
+    border-width: 2px;
+    margin: 8px;
+}
+
+.Paragraph1 {
+    color: #485175;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Poppins;
+    line-height: 19.6px;
+    text-align: center;
+    width: 202px;
+    text-align: center;
+    white-space: normal !important;
+    word-break: break-word;
+}
+
+.FlexColumn2 {
+    width: 202px;
+    align-items: center;
+    gap: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: stretch;
+    align-items: flex-start;
+}
+
+.DividerCTA {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: stretch;
+    align-items: flex-start;
+}
+
+.Divider {
+    height: 1px;
+    align-self: stretch;
+}
+
+.LastWeek {
+    width: 170px;
+    margin: 8px;
+    height: 14px;
+    gap: 2px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-self: stretch;
+    align-items: center;
+    color: #485175;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Poppins;
+    line-height: 20px;
+    white-space: nowrap;
+    border-style: solid;
+    border-color: #eaeeff;
+    background-color: #f4f6ff;
+    border-radius: 8px;
+    padding: 13px 15px;
+    border-width: 1px;
+    box-sizing: content-box;
+    cursor: pointer;
+}
+
+.LastWeek3 {
+    gap: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #485175;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Poppins;
+    line-height: 20px;
+    white-space: nowrap;
+    border-style: solid;
+    border-color: #eaeeff;
+    background-color: #f4f6ff;
+    border-radius: 8px;
+    padding: 13px 15px;
+    border-width: 1px;
+    box-sizing: content-box;
+    cursor: pointer;
+}
+
+.LastWeek3:hover {
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+}
+
+.LastWeek4 {
+    gap: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #eaeeff;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Poppins;
+    line-height: 20px;
+    white-space: nowrap;
+    border-style: solid;
+    border-color: #eaeeff;
+    background-color: #0d1121;
+    border-radius: 8px;
+    padding: 13.2px 15.2px;
+    border-width: 0.8px;
+    box-sizing: content-box;
+    cursor: pointer;
+}
+
+.LastWeek4:hover {
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+}
+
+
+.LastWeek:hover {
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+}
+
+.TemplatesRootRoot {
+
+    flex: 2;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+    background-color: white;
+    display: flex;
+    overflow: auto;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.WhiteFlexColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.Gradienttexture {
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url("https://file.rendit.io/n/6Ejnb7lI1FHAM0TZV0h5.png");
+}
+
+.BrandLogo1 {
+    width: 100% !important;
+    object-fit: cover;
+    height: 9rem !important;
+    object-fit: cover;
+    background-size: 100% 100%;
+    align-self: stretch;
+}
+
+.VINCI {
+    width: 97.12px;
+    height: 19.82px;
+}
+
+.FlexColumn {
+    width: 100%;
+    height: 100%;
+    gap: 120px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.FlexColumn1 {
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 75px;
+    margin-bottom: -75px;
+}
+
+.Text1 {
+    color: #0d1121;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: Poppins;
+    line-height: 67.2px;
+    width: 1350px;
+    text-align: center;
+    white-space: normal !important;
+    word-break: break-word;
+}
+
+.Paragraph {
+    color: #485175;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Poppins;
+    line-height: 33.6px;
+    width: 1350px;
+    text-align: center;
+    white-space: normal !important;
+    word-break: break-word;
+}
+
+.FlexRow {
+    gap: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.FlexRow1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: stretch;
+    align-items: center;
+    padding: 0px 47px;
+    padding-bottom: 47px;
+}
+
+.Cardsprojects {
+    gap: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-style: solid;
+    border-color: #eaeeff;
+    background-color: #f9faff;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    border-width: 2px;
+}
+
+.Image1 {
+    width: 202px;
+    height: 202px;
+    border-radius: 20px;
+    border-width: 2px;
+    margin: 8px;
+}
+
+.embed {
+    max-height: 500vh;
+    height: 50vh !important;
+    width: 40vw;
+    border-radius: 14px;
+}
+
+#embed {
+    max-height: 500vh;
+    height: 50vh !important;
+    width: 40vw;
+    border-radius: 14px;
+}
+
+.embed {
+    max-height: 500vh;
+    height: 50vh !important;
+    width: 40vw;
+    border-radius: 14px;
+}
+
+embed {
+    max-height: 500vh;
+    height: 50vh !important;
+    width: 40vw;
+    border-radius: 14px;
+}
+
+Embed {
+    max-height: 500vh;
+    height: 50vh !important;
+    width: 40vw;
+    border-radius: 14px;
+}
+
+iframe {
+    max-height: 500vh !important;
+    height: 50vh !important;
+    width: 40vw !important;
+    border-radius: 14px !important;
+}
+
+.Paragraph1 {
+    color: #485175;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Poppins;
+    line-height: 19.6px;
+    text-align: center;
+    width: 202px;
+    text-align: center;
+    white-space: normal !important;
+    word-break: break-word;
+}
+
+.FlexColumn2 {
+    width: 202px;
+    align-items: center;
+    gap: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: stretch;
+    align-items: flex-start;
+}
+
+.DividerCTA {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: stretch;
+    align-items: flex-start;
+}
+
+.Divider {
+    height: 1px;
+    align-self: stretch;
+}
+
+.LastWeek {
+    width: 170px;
+    margin: 8px;
+    height: 14px;
+    gap: 2px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-self: stretch;
+    align-items: center;
+    color: #485175;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Poppins;
+    line-height: 20px;
+    white-space: nowrap;
+    border-style: solid;
+    border-color: #eaeeff;
+    background-color: #f4f6ff;
+    border-radius: 8px;
+    padding: 13px 15px;
+    border-width: 1px;
+    box-sizing: content-box;
+    cursor: pointer;
+}
+
+.LastWeek3 {
+    gap: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #485175;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Poppins;
+    line-height: 20px;
+    white-space: nowrap;
+    border-style: solid;
+    border-color: #eaeeff;
+    background-color: #f4f6ff;
+    border-radius: 8px;
+    padding: 13px 15px;
+    border-width: 1px;
+    box-sizing: content-box;
+    cursor: pointer;
+}
+
+.LastWeek3:hover {
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+}
+
+.LastWeek4 {
+    gap: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #eaeeff;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Poppins;
+    line-height: 20px;
+    white-space: nowrap;
+    border-style: solid;
+    border-color: #eaeeff;
+    background-color: #0d1121;
+    border-radius: 8px;
+    padding: 13.2px 15.2px;
+    border-width: 0.8px;
+    box-sizing: content-box;
+    cursor: pointer;
+}
+
+.LastWeek4:hover {
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+}
+
+
+.LastWeek:hover {
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+}
+
+.TemplatesRootRoot {
+
+    flex: 2;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+    background-color: white;
+    display: flex;
+    overflow: auto;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.WhiteFlexColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.Gradienttexture {
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url("https://file.rendit.io/n/6Ejnb7lI1FHAM0TZV0h5.png");
+}
+
+.BrandLogo1 {
+    width: 100% !important;
+    object-fit: cover;
+    height: 9rem !important;
+    object-fit: cover;
+    background-size: 100% 100%;
+    align-self: stretch;
+}
+
+.VINCI {
+    width: 97.12px;
+    height: 19.82px;
+}
+
+.FlexColumn {
+    width: 100%;
+    height: 100%;
+    gap: 120px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.FlexColumn1 {
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 75px;
+    margin-bottom: -75px;
+}
+
+.Text1 {
+    color: #0d1121;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: Poppins;
+    line-height: 67.2px;
+    width: 1350px;
+    text-align: center;
+    white-space: normal !important;
+    word-break: break-word;
+}
+
+.Paragraph {
+    color: #485175;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Poppins;
+    line-height: 33.6px;
+    width: 1350px;
+    text-align: center;
+    white-space: normal !important;
+    word-break: break-word;
+}
+
+.FlexRow {
+    gap: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.FlexRow1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: stretch;
+    align-items: center;
+    padding: 0px 47px;
+    padding-bottom: 47px;
+}
+
+.Cardsprojects {
+    gap: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-style: solid;
+    border-color: #eaeeff;
+    background-color: #f9faff;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    border-width: 2px;
+}
+
+.Image1 {
+    width: 202px;
+    height: 202px;
+    border-radius: 20px;
+    border-width: 2px;
+    margin: 8px;
+}
+
+
+.text {
+    width: 50vw;
+    height: 20vh;
+    background: #F5F7FF;
+    border: 0.8px solid #EBEFFF;
+    border-radius: 8px;
+    overflow: auto;
+}
+
+.embed {
+    max-height: 500vh;
+    height: 50vh !important;
+    width: 40vw;
+    border-radius: 14px;
+}
+
+#embed {
+    max-height: 500vh;
+    height: 50vh !important;
+    width: 40vw;
+    border-radius: 14px;
+}
+
+.embed {
+    max-height: 500vh;
+    height: 50vh !important;
+    width: 40vw;
+    border-radius: 14px;
+}
+
+embed {
+    max-height: 500vh;
+    height: 50vh !important;
+    width: 40vw;
+    border-radius: 14px;
+}
+
+Embed {
+    max-height: 500vh;
+    height: 50vh !important;
+    width: 40vw;
+    border-radius: 14px;
+}
+
+iframe {
+    max-height: 500vh !important;
+    height: 50vh !important;
+    width: 40vw !important;
+    border-radius: 14px !important;
+}
+
+.Paragraph1 {
+    color: #485175;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Poppins;
+    line-height: 19.6px;
+    text-align: center;
+    width: 202px;
+    text-align: center;
+    white-space: normal !important;
+    word-break: break-word;
+}
+
+.FlexColumn2 {
+    width: 202px;
+    align-items: center;
+    gap: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: stretch;
+    align-items: flex-start;
+}
+
+.DividerCTA {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: stretch;
+    align-items: flex-start;
+}
+
+.Divider {
+    height: 1px;
+    align-self: stretch;
+}
+
+.LastWeek {
+    width: 170px;
+    margin: 8px;
+    height: 14px;
+    gap: 2px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-self: stretch;
+    align-items: center;
+    color: #485175;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Poppins;
+    line-height: 20px;
+    white-space: nowrap;
+    border-style: solid;
+    border-color: #eaeeff;
+    background-color: #f4f6ff;
+    border-radius: 8px;
+    padding: 13px 15px;
+    border-width: 1px;
+    box-sizing: content-box;
+    cursor: pointer;
+}
+
+.LastWeek3 {
+    gap: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #485175;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Poppins;
+    line-height: 20px;
+    white-space: nowrap;
+    border-style: solid;
+    border-color: #eaeeff;
+    background-color: #f4f6ff;
+    border-radius: 8px;
+    padding: 13px 15px;
+    border-width: 1px;
+    box-sizing: content-box;
+    cursor: pointer;
+}
+
+.LastWeek3:hover {
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+}
+
+.LastWeek4 {
+    gap: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #eaeeff;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Poppins;
+    line-height: 20px;
+    white-space: nowrap;
+    border-style: solid;
+    border-color: #eaeeff;
+    background-color: #0d1121;
+    border-radius: 8px;
+    padding: 13.2px 15.2px;
+    border-width: 0.8px;
+    box-sizing: content-box;
+    cursor: pointer;
+}
+
+.LastWeek4:hover {
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+}
+
+
+.LastWeek:hover {
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+}
+
+.TemplatesRootRoot {
+
+    flex: 2;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+    background-color: white;
+    display: flex;
+    overflow: auto;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.WhiteFlexColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.Gradienttexture {
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url("https://file.rendit.io/n/6Ejnb7lI1FHAM0TZV0h5.png");
+}
+
+.BrandLogo1 {
+    width: 100% !important;
+    object-fit: cover;
+    height: 9rem !important;
+    object-fit: cover;
+    background-size: 100% 100%;
+    align-self: stretch;
+}
+
+.VINCI {
+    width: 97.12px;
+    height: 19.82px;
+}
+
+.FlexColumn {
+    width: 100%;
+    height: 100%;
+    gap: 120px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.FlexColumn1 {
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 75px;
+    margin-bottom: -75px;
+}
+
+.Text1 {
+    color: #0d1121;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: Poppins;
+    line-height: 67.2px;
+    width: 1350px;
+    text-align: center;
+    white-space: normal !important;
+    word-break: break-word;
+}
+
+.Paragraph {
+    color: #485175;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Poppins;
+    line-height: 33.6px;
+    width: 1350px;
+    text-align: center;
+    white-space: normal !important;
+    word-break: break-word;
+}
+
+.FlexRow {
+    gap: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.FlexRow1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: stretch;
+    align-items: center;
+    padding: 0px 47px;
+    padding-bottom: 47px;
+}
+
+.parag {
+    width: 410px;
+    color: #485175;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Poppins;
+    line-height: 33.6px;
+    width: 100%;
+    text-align: center;
+    white-space: normal !important;
+    word-break: break-word;
+}
+
+.root {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9faff;
+    width: 100%;
+}
+
+
+.BrandLogo {
+    flex-basis: 100%;
+    flex: 1;
+    display: flex;
+    background-size: 100% 100%;
+    align-self: stretch;
+    object-fit: cover;
+    width: 50%;
+}
+
+.Union {
+    width: 159.92px;
+    height: 142.15px;
+}
+
+.leftCol {
+    flex-basis: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.rightCol {
+    flex-basis: 100%;
+    flex: 1;
+    width: 50%;
+    height: 100vh;
+    gap: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightCol1 {
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.text1 {
+    color: #485175;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Poppins;
+    line-height: 33.6px;
+    width: 100%;
+    text-align: center;
+    white-space: normal !important;
+    word-break: break-word;
+}
+
+.text2 {
+    color: #0d1121;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: Poppins;
+    line-height: 67.2px;
+    white-space: nowrap;
+    width: 100%;
+    text-align: center;
+    white-space: normal !important;
+    word-break: break-word;
+}
+
+.button {
+    width: 286px;
+    gap: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #eaeeff;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Poppins;
+    line-height: 20px;
+    white-space: nowrap;
+    border-style: solid;
+    border-color: #eaeeff;
+    background-color: #0d1121;
+    border-radius: 8px;
+    padding: 13.2px 15.2px;
+    border-width: 0.8px;
+    box-sizing: content-box;
+    cursor: pointer;
+
+}
+
+.button:hover {
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+}
+.InputFlexColumn3 {
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .InputText2 {
+    width: 410px;
+    color: #485175;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Poppins;
+    line-height: 22.4px;
+  }
+  
+  .InputTextbox {
+    gap: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-style: solid;
+    border-color: #eaeeff;
+    background-color: #f4f6ff;
+    border-radius: 8px;
+    padding: 13.2px 15.2px;
+    border-width: 0.8px;
+  }
+  
+  .InputFlexColumn4 {
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 10%;
+  }
+
+  
+  .InputBrandLogo1 {
+    width: 100% !important;
+    object-fit: cover;
+    height: 9rem !important;
+    object-fit: cover;
+    background-size: 100% 100%;
+    align-self: stretch;
+  }
+  .InputLastWeek4{
+    gap: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #eaeeff;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Poppins;
+    line-height: 20px;
+    white-space: nowrap;
+    border-style: solid;
+    border-color: #eaeeff;
+    background-color: #0d1121;
+    border-radius: 8px;
+    padding: 13.2px 15.2px;
+    border-width: 0.8px;
+    box-sizing: content-box;
+    cursor: pointer;
+  }
+  
+  .InputLastWeek4:hover {
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+  }
+  
+  .InputSetupPayments {
+    gap: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: #858caa;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Poppins;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .InputIcons {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .InputTemplatesRootRoot {
+  
+    flex: 2;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    display: flex;
+    overflow: auto;
+    height: 100vh !important;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  
+  /* .InputTemplatesRootRoot {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f9faff;
+  } */
+  
+  .InputWhiteFlexColumn {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    overflow: hidden;
+  }
+  
+  .InputGradienttexture {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    background-size: cover;
+    background-image: url("https://file.rendit.io/n/ANcZFmYc2N5sWV0NJqbb.png");
+    padding: 30px 0px 39.18px 0px;
+  }
+  
+  .InputBrandLogo {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+  }
+  
+  .InputVINCI {
+    width: 97.12px;
+    height: 19.82px;
+  }
+  
+  .InputFlexColumn {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+  }
+  
+  
+  
+  .InputImage1 {
+    width: 460px;
+    height: 86.5px;
+    flex-grow: 1;
+  }
+  
+  .InputFlexColumn1 {
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .InputFlexColumn2 {
+    width: auto;
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .InputText1 {
+    color: #0d1121;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Poppins;
+    line-height: 33.6px;
+    white-space: nowrap;
+  }
+  
+  .InputFlexRow {
+    gap: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .InputLastWeek {
+    width: 152px;
+    gap: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #eaeeff;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Poppins;
+    line-height: 20px;
+    white-space: nowrap;
+    border-style: solid;
+    border-color: #eaeeff;
+    background-color: #0d1121;
+    border-radius: 8px;
+    padding: 13.2px 15.2px;
+    border-width: 0.8px;
+    box-sizing: content-box;
+    cursor: pointer;
+  }
+  
+  .InputLastWeek:hover {
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+  }
+  
+  .InputPressENTER1 {
+    color: #858caa;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Poppins;
+    line-height: 20px;
+    white-space: pre-wrap;
+  }
+  
+  .InputPressENTER {
+    display: contents;
+    color: #0d1121;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Poppins;
+    line-height: 20px;
+  }
+  
+  .InputFlexColumn7 {
+    height: 86.5px;
+    gap: 10px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  
+  .InputWhiteFlexRow {
+    gap: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-style: solid;
+    border-color: #eaeeff;
+    background-color: #f4f6ff;
+    border-radius: 14px;
+    padding: 16px;
+    border-width: 2px;
+  }
+  
+  .InputFlexRow1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: stretch;
+    align-items: center;
+    padding: 0px 47px;
+    padding-bottom: 47px;
+  }
+  
+  
+  .InputLine {
+    width: 1px;
+    height: 16px;
+  }
+
+  .ConnectWLastWeek1 {
+    gap: 2px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #485175;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Poppins;
+    line-height: 19.6px;
+    white-space: nowrap;
+    border-style: solid;
+    border-color: #eaeeff;
+    background-color: #f4f6ff;
+    border-radius: 8px;
+    padding: 13px 15px;
+    border-width: 1px;
+    box-sizing: content-box;
+    cursor: pointer;
+}
+
+.ConnectWLastWeek1:hover {
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+}
+
+.ConnectWGradienttextureRootRoot {
+    flex: 2;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    display: flex;
+    overflow: auto;
+    height: 100vh !important;
+    align-items: center;
+    flex-direction: column;
+}
+
+.InputFlexRow1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: stretch;
+  align-items: center;
+  padding: 0px 47px;
+  padding-bottom: 47px;
+}
+.InputLastWeek4{
+  gap: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #eaeeff;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Poppins;
+  line-height: 20px;
+  white-space: nowrap;
+  border-style: solid;
+  border-color: #eaeeff;
+  background-color: #0d1121;
+  border-radius: 8px;
+  padding: 13.2px 15.2px;
+  border-width: 0.8px;
+  box-sizing: content-box;
+  cursor: pointer;
+}
+.InputLastWeek4:hover {
+  box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+}
+
+.InputBrandLogo1 {
+  width: 100% !important;
+  object-fit: cover;
+  height: 9rem !important;
+  object-fit: cover;
+  background-size: 100% 100%;
+  align-self: stretch;
+}
+
+.ConnectWCardsvinciOnboarding {
+    margin-top: 150px;
+    width: 30%;
+    gap: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-style: solid;
+    border-color: #eaeeff;
+    background-color: #f9faff;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 22px;
+    border-width: 2px;
+}
+
+.ConnectWLogo{
+    
+width: 65px;
+height: 60px;
+}
+
+.ConnectWBrandLogo {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+.ConnectWUnion {
+    height: 60px;
+    width: 60px;
+}
+
+.ConnectWFlexColumn {
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ConnectWBody {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ConnectWText1 {
+    text-align: center;
+    color: #0d1121;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Poppins;
+    line-height: 33.6px;   
+    width: 100%;
+    white-space: normal !important;
+    word-break: break-word;
+}
+
+.ConnectWParagraph {
+    width: auto;
+    color: #0d1121;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Poppins;
+    line-height: 22.4px;
+    text-align: center;
+    width: 100%;
+    white-space: normal !important;
+    word-break: break-word;
+}
+
+.ConnectWParagraph1 {
+    width: auto;
+    color: #485175;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Poppins;
+    line-height: 19.6px;
+    text-align: center;
+    width: 100%;
+    white-space: normal !important;
+    word-break: break-word;
+}
+
+.ConnectWDividerCTA {
+    width: 100%;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.ConnectWLastWeek {
+    width: 100%;
+    gap: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #eaeeff;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Poppins;
+    line-height: 19.6px;
+    white-space: nowrap;
+    border-style: solid;
+    border-color: #eaeeff;
+    background-color: #0d1121;
+    border-radius: 8px;
+    padding: 13.2px 15.2px;
+    border-width: 0.8px;
+    box-sizing: content-box;
+    cursor: pointer;
+}
+
+.ConnectWLastWeek:hover {
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+}
+
+.ConnectWDivider {
+    height: 1px;
+}
+
+.ConnectWFlexRow {
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.ConnectWLastWeekA{
+    
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.ConnectWLastWeek1A{
+    
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
